@@ -21,4 +21,5 @@ from app1.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('csa/',csa,name='csa'),
+    path('form/',form,name='form')
 ]

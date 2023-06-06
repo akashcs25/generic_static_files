@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>payment form</h1>
+            <hr>
+            <h2>personal details</h2>
+            <p>
+                Name : <input type="text" name="name" required>
+            </p>
+            <p>
+                Age :  <input type="number" name="number" id="number">
+            </p>
+            <fieldset>
+            <legend>
+                Gender
+            </legend>
+            <p>
+            Male :  <input type="radio" name="gender" id="male" value="male"> Female : <input type="radio" name="gender" id="female" value="female">
+            </p>
+            </fieldset>
+            <p>
+            Email : <input type="email" name="email" id="email">  
+            </p>
+            <p>
+                Phone no : <input type="number" name="number" id="number">
+            </p>
+            <p>
+            Address : 
+            <textarea name="address" id="address" cols="100" rows="5"></textarea>
+            </p>
+            <h2>payment details</h2>
+            <p>
+                Mode of payment
+                <select name="" id="">
+                    <option value="">--select option--</option>
+                    <option value="Visa">VISA</option>
+                    <option value="Rupay">RUPAY</option>
+                    <option value="Cash">CASH</option>
+                </select>
+            </p>
+            <p>
+                <button style="color: blue;">SUBMIT</button>
+            </p>     
+    </div>
+    </form>
+</body>
+</html>

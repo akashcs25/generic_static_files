@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    /* width: 100%; */
+    background-color: antiquewhite;
+    border: 1px solid lightgreen;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea,select{
+    width: 100%;
+    border:1px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+fieldset{
+    border:1px solid rgb(214, 190, 147);
+    border-radius: 4px;
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    background-color: rgb(165, 224, 157);
+    border: 0ch;
+    width: 100%;
+}
+button:hover{
+    background-color: rgb(118, 223, 57);
+}
